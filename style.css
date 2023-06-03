@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: rgb(66, 66, 68,0.96);
+    backdrop-filter: blur(0.1px);
+    color: #fff;
+    padding: 13px 0;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+#nav {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.site-title {
+    margin: 0 20px;
+}
+
+#nav li,
+.site-title {
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+}
+
+#nav li:hover,
+.site-title:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.65s;
+}
+
+.container {
+    text-align: center;
+}
+
+.tradein{
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.tradein a {
+    text-decoration: none;
+    color: rgb(45, 101, 197);
+}
+
+.iPhone14pro,.iPhone14{
+    margin-top: 7px;
+}
