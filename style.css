@@ -5,7 +5,7 @@
 }
 
 #header {
-    background-color: rgb(66, 66, 68,0.96);
+    background-color: rgb(66, 66, 68, 0.96);
     backdrop-filter: blur(0.1px);
     color: #fff;
     padding: 13px 0;
@@ -50,16 +50,19 @@
     text-align: center;
 }
 
-.tradein{
+.tradein {
     padding: 10px;
     text-align: center;
     font-size: 14px;
 }
+
 .tradein a {
     text-decoration: none;
     color: rgb(45, 101, 197);
 }
 
-.iPhone14pro,.iPhone14{
+.iPhone14pro,
+.iPhone14 {
     margin-top: 7px;
 }
+
